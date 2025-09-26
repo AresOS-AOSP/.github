@@ -1,4 +1,4 @@
-![AresOS Banner](https://github.com/AresOS-AOSP/.github/raw/main/banner.png)
+![AresOS Banner](https://github.com/AresOS-AOSP/.github/raw/main/banner2.png)
 # AresOS ROM
 
 Welcome to AresOS.
