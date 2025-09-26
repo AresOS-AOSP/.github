@@ -9,7 +9,7 @@ For additional information (about the features and more), you can either scout t
 
 > Not buildable for other devices as a few things are private (this may change in the future).
 
-> Credits:
+# Credits:
 - **Lineage OS**
 - **Lunaris AOSP**
 - **crDroid**
