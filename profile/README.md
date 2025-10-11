@@ -3,17 +3,16 @@
 
 Welcome to AresOS.
 
-A personal project based on **LineageOS 23.0 / crDroid (Android 16)** with needed non-gore features for **POCO X4 GT / Redmi Note 11T Pro (+) / Redmi K50i (xaga - MT6895)** and **Oneplus Ace 5 / Oneplus 13R (giulia)**.
+A custom ROM project based on **LineageOS 23.0 / crDroid (Android 16)**, featuring essential, user-focused enhancements. Originally developed for **POCO X4 GT / Redmi Note 11T Pro (+) / Redmi K50i (xaga - MT6895)** and **OnePlus Ace 5 / OnePlus 13R (giulia)**, but it’s now available for all devices to build!
 
-For additional information (about the features and more), you can either scout the available source code or visit [our website](https://chriscatto.gitlab.io/AresOS).
+We currently support Android 16, with the latest security patches from Google. Status: October 2025
 
-> **Not buildable for other devices as a few things are private (this may change in the future)**.
 
 # Credits:
-- **Lineage OS**
-- **Lunaris AOSP**
+- **LineageOS**
+- **LunarisAOSP**
 - **crDroid**
-- **Pixel OS**
-- **Axion AOSP**
-- **Voltage OS**
+- **PixelOS**
+- **AxionAOSP**
+- **VoltageOS**
 - **And others**
