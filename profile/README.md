@@ -6,7 +6,7 @@ A clean and lightweight custom ROM based on **LineageOS 23.2 / crDroid** (Androi
 
 Originally built for the **POCO X4 GT / Redmi Note 11T Pro (+) / Redmi K50i** (`xaga`), now open for all devices to build.
 
-**Currently supporting**: Android 16 QPR2 with April 2026 security patches.
+**Currently supporting**: Android 16 QPR2 with May 2026 security patches.
 
 ---
 
