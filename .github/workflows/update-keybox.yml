@@ -1,4 +1,4 @@
-name: Update spoofing
+name: Update keybox
 
 on:
   workflow_dispatch:
@@ -10,28 +10,27 @@ permissions:
 
 jobs:
   update-spoofing:
-    name: Sync spoofing files from EvolutionX
+    name: Sync keybox from EvolutionX
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download spoofing files
+      - name: Download keybox
         run: |
           mkdir -p profile
-          curl -fsSL "https://raw.githubusercontent.com/Evolution-X/.github/refs/heads/main/profile/pif.json" -o profile/pif.json
           curl -fsSL "https://git.evolution-x.org/EvoX/keybox/raw/branch/main/keybox.xml" -o profile/keybox.xml
 
-      - name: Commit updated spoofing files
+      - name: Commit updated keybox
         run: |
-          if [ -z "$(git status --porcelain -- profile/pif.json profile/keybox.xml)" ]; then
-            echo "Spoofing files are already up to date."
+          if [ -z "$(git status --porcelain -- profile/keybox.xml)" ]; then
+            echo "Keybox is already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/pif.json profile/keybox.xml
-          git commit -m "Update spoofing from EvolutionX"
+          git add profile/keybox.xml
+          git commit -m "Update keybox from EvolutionX"
           git push
