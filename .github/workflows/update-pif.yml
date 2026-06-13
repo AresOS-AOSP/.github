@@ -1,0 +1,34 @@
+name: Update PIF
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-pif:
+    name: Generate PIF
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate PIF
+        run: python3 .github/scripts/generate_pif.py
+
+      - name: Commit updated pif.json
+        run: |
+          if [ -z "$(git status --porcelain -- profile/pif.json)" ]; then
+            echo "PIF is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/pif.json
+          git commit -m "Update canary PIF profile"
+          git push
