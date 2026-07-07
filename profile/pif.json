@@ -1,7 +1,7 @@
 {
-  "MODEL": "Pixel 8a",
+  "MODEL": "Pixel 8 Pro",
   "MANUFACTURER": "Google",
-  "FINGERPRINT": "google/akita_beta/akita:CANARY/ZP11.260515.009/15513807:user/release-keys",
+  "FINGERPRINT": "google/husky_beta/husky:CANARY/ZP11.260515.009/15513807:user/release-keys",
   "SECURITY_PATCH": "2026-06-05",
   "DEVICE_INITIAL_SDK_INT": "34"
 }
