@@ -1,7 +1,7 @@
 {
-  "MODEL": "Pixel 8a",
+  "MODEL": "Pixel 9",
   "MANUFACTURER": "Google",
-  "FINGERPRINT": "google/akita_beta/akita:CANARY/ZP11.260618.005/15760424:user/release-keys",
+  "FINGERPRINT": "google/tokay_beta/tokay:CANARY/ZP11.260618.005/15760424:user/release-keys",
   "SECURITY_PATCH": "2026-07-05",
   "DEVICE_INITIAL_SDK_INT": "34"
 }
