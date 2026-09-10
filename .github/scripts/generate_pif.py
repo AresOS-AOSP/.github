@@ -114,7 +114,7 @@ for b in reversed(builds):
 
 if not pif:
     print("No canary build found")
-    sys.exit(1)
+    sys.exit(0)
 
 os.makedirs('profile', exist_ok=True)
 with open('profile/pif.json', 'w') as f:
