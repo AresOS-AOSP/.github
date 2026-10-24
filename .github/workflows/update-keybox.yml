@@ -20,7 +20,7 @@ jobs:
       - name: Download keybox
         run: |
           mkdir -p profile
-          curl -fsSL "https://git.evolution-x.org/EvoX/keybox/raw/branch/main/keybox.xml" -o profile/keybox.xml
+          curl -fsSL "https://gitea.com/Evolution-X/keybox/raw/branch/main/keybox.xml" -o profile/keybox.xml
 
       - name: Commit updated keybox
         run: |
