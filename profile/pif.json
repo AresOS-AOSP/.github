@@ -1,7 +1,7 @@
 {
-  "MODEL": "Pixel 9 Pro Fold",
+  "MODEL": "Pixel 8a",
   "MANUFACTURER": "Google",
-  "FINGERPRINT": "google/comet_beta/comet:CANARY/ZP11.260918.007/16484274:user/release-keys",
-  "SECURITY_PATCH": "2026-10-05",
+  "FINGERPRINT": "google/akita_beta/akita:CANARY/ZP11.261016.008/16754936:user/release-keys",
+  "SECURITY_PATCH": "2026-11-05",
   "DEVICE_INITIAL_SDK_INT": "34"
 }
