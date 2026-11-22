@@ -1,7 +1,7 @@
 {
-  "MODEL": "Pixel 11",
+  "MODEL": "Pixel 10 Pro Fold",
   "MANUFACTURER": "Google",
-  "FINGERPRINT": "google/cubs_beta/cubs:CANARY/ZP11.261016.008/16754936:user/release-keys",
+  "FINGERPRINT": "google/rango_beta/rango:CANARY/ZP11.261016.008/16754936:user/release-keys",
   "SECURITY_PATCH": "2026-11-05",
   "DEVICE_INITIAL_SDK_INT": "34"
 }
